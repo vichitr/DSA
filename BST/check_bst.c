@@ -92,11 +92,11 @@ int main()
 				if(c==0)
 				printf("Tree is BST\n");
 				break;
-      case 3:
+			case 3:
 			    break;
 			default:
 			    printf("Invalid Choice\n");
 		}
-	}while(x != 3);	
+	}while(x != 3);
 	return 0;
-}	
+}
