@@ -7,8 +7,8 @@ Data Structures and Algorithms
 - Stack
 - Queue
 - Priority Queue
-- Binary Tree
-- Binary Search Tree
-- AVL Tree
-- Heap
-- Graph
+- [Binary Tree](https://github.com/vichitr/DSA/tree/master/Binary%20Tree)
+- [Binary Search Tree](https://github.com/vichitr/DSA/tree/master/BST)
+- [AVL Tree](https://github.com/vichitr/DSA/tree/master/AVL)
+- [Heap](https://github.com/vichitr/DSA/tree/master/Heap)
+- [Graph](https://github.com/vichitr/DSA/tree/master/Graph)
