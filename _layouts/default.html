@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.scss?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
   </head>
@@ -13,14 +13,14 @@
 
     <header>
       <div class="container">
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+        <h1>{{ DSA | default: site.github.repository_name }}</h1>
+        <h2>{{ Data Structures & Algorithms | default: site.github.project_tagline }}</h2>
 
         <section id="downloads">
-          {% if site.show_downloads %}
+          
             <a href="https://github.com/vichitr/DSA/archive/master.zip" class="btn">Download as .zip</a>
             <a href="https://github.com/vichitr/DSA/archive/master.tar.gz" class="btn">Download as .tar.gz</a>
-          {% endif %}
+    
           <a href="https://github.com/vichitr/DSA" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section>
       </div>
